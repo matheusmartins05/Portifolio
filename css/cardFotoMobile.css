@@ -165,7 +165,7 @@ body {
   justify-content: space-between;
   margin: 2rem 0;
   color: #fff;
-  font-size: 1.7rem;
+  font-size: clamp( 1.8rem, 5vw, 2.45rem);
   text-align: justify;
   height: 60%;
 }
