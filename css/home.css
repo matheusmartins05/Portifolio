@@ -102,7 +102,6 @@ html {
 .btn-conhecaMais {
   width: 24.9rem;
   height: 6rem;
-
   border-radius: 2rem;
   border: none;
 
@@ -112,15 +111,6 @@ html {
   color: white;
 
   background: linear-gradient(90deg, #517ec2 -30.06%, #d44d4d 100%);
-}
-
-
-
-.nomeEfeitoGradiente {
-  background: linear-gradient(90deg, #517ec2 -30.06%, #d44d4d 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
 }
 
 /*Minhas habilidades*/

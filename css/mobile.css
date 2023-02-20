@@ -30,7 +30,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 #nome-logo {
@@ -82,7 +81,7 @@ body {
 .menuAberto {
   display: flex;
   justify-content: center;
-  height: 50rem;
+  height: 45rem;
 }
 
 .principalPag {
@@ -97,7 +96,7 @@ body {
   text-align: center;
   row-gap: 3rem;
   width: 90%;
-  font-size: clamp( 1.7rem , 4.5vw , 3rem);
+  font-size: clamp(1.7rem, 4.5vw, 3rem);
   margin: auto;
   margin-top: 15rem;
   color: #666666;
@@ -129,7 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
+  padding-top: 14rem;
 }
 
 .minhasHabilidades h2 {
@@ -162,6 +161,7 @@ body {
   margin-top: 10rem;
   color: #fff;
   font-family: "Poppins", sans-serif;
+  padding-top: 14rem;
 }
 
 .projetos h2 {
@@ -281,7 +281,7 @@ body {
 }
 
 @media (min-width: 1000px) {
-  header{
+  header {
     width: 100%;
     height: 7rem;
     background: #444;
@@ -291,24 +291,21 @@ body {
     z-index: 20;
   }
 
-
   .logo svg:nth-child(3) {
     display: none;
   }
 
-
-  .icones-contato{
+  .icones-contato {
     display: initial;
     margin: 0;
   }
 
-    .menu {
+  .menu {
     display: flex;
     width: 86%;
     align-items: center;
     height: 7rem;
     justify-content: space-between;
-   
   }
 
   .menu .itens-menu {
@@ -341,6 +338,8 @@ body {
   .mensagem-saudacao .btn-conhecaMais {
     width: 20rem;
     height: 5rem;
+    cursor: pointer;
+
     border-radius: 2rem;
     align-items: start;
     font-size: 1.5rem;
@@ -348,40 +347,42 @@ body {
     margin: 0;
     border: none;
     color: white;
-    background: linear-gradient(90deg, rgba(81,126,194,1) -30.06%, rgba(212,77,77,1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(81, 126, 194, 1) -30.06%,
+      rgba(212, 77, 77, 1) 100%
+    );
   }
 
-
-  .minhasHabilidades{
+  .minhasHabilidades {
     max-width: 1600px;
   }
 
   .minhasHabilidades h2 {
     font-size: 2.5rem;
-}
+  }
 
-.minhasHabilidades p {
-  font-size: 1.7rem;  
-}
+  .minhasHabilidades p {
+    font-size: 1.7rem;
+  }
 
-.iconesTec{
-  width: 70%;
-}
+  .iconesTec {
+    width: 70%;
+  }
 
-.iconesTec svg{
-  width: 8%;
-}
+  .iconesTec svg {
+    width: 8%;
+  }
 
-  .projetos p{
+  .projetos p {
     width: 65%;
   }
 
-  .grid-projetos figure{
+  .grid-projetos figure {
     max-width: 30rem;
   }
 
-  .secaoCard{
+  .secaoCard {
     width: 50%;
   }
-  
 }
