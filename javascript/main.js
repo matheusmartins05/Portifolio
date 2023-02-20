@@ -19,3 +19,19 @@ function mostrarMenuScroll (){
         menuNav.classList.remove('.transarenciaMenu');    
     }
 }
+
+
+
+
+let sobre = document.querySelector('#sobre');
+
+sobre.onmouseover = () =>{
+    let expandeCard = document.querySelector('.card');
+    expandeCard.classList.add('testeCard');
+}
+
+sobre.onmouseleave = () =>{
+    let expandeCard = document.querySelector('.card');
+    expandeCard.classList.remove('testeCard');
+}
+

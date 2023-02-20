@@ -33,6 +33,25 @@ body {
     height: 37rem;
 }
 
+.secaoCard .testeCard{
+    height: 40rem;
+}
+
+.secaoCard .testeCard .conteudo .detalhes .data{
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.secaoCard .testeCard .conteudo .detalhes .botaoAcao{
+    visibility: visible;
+    transition: 0.5s;
+}
+
+.secaoCard .testeCard .imgBx{
+    width: 55%;
+    height: 50%;
+}
+
 
 
 
