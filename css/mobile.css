@@ -81,7 +81,6 @@ body {
 .menuAberto {
   display: flex;
   justify-content: center;
-  height: 45rem;
 }
 
 .principalPag {
@@ -263,22 +262,6 @@ body {
   color: #fff;
 }
 
-.rodape-menu {
-  display: flex;
-  align-items: center;
-  height: 7rem;
-  display: none;
-}
-
-.rodape-menu .itens-menu {
-  align-items: center;
-}
-
-.rodape-menu p {
-  width: 50%;
-  text-align: end;
-  color: #fff;
-}
 
 @media (min-width: 1000px) {
   header {

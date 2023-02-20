@@ -20,6 +20,10 @@ body {
   font-size: 1.6rem;
 }
 
+.secaoCard{
+  padding-top: 10rem;
+}
+
 .card {
   position: relative;
   width: 90%;

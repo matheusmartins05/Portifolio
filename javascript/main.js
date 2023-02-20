@@ -11,17 +11,8 @@ AbrirMenu.addEventListener('click', function(){
 
 })
 
-function mostrarMenuScroll (){
-    if (scrollY > 0){
-        let menuNav = document.querySelector('.menu');
-        menuNav.classList.add('.transarenciaMenu');    
-    }else{
-        menuNav.classList.remove('.transarenciaMenu');    
-    }
-}
 
-
-
+//Efeito hover ao setar mouse no item "sobre"
 
 let sobre = document.querySelector('#sobre');
 
@@ -35,3 +26,9 @@ sobre.onmouseleave = () =>{
     expandeCard.classList.remove('testeCard');
 }
 
+// Fechar menu mobile ao tocar em um item
+
+function fecharMenu (){
+    itensMenu.classList.remove("menuAberto");
+    contato.classList.remove("menuAberto")
+}
