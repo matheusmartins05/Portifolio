@@ -12,7 +12,7 @@ export default function Menu(){
                 <img className="w-10" src={logoMenu} alt="" />
                 <ul className="flex gap-2 text-[#E5ECF4] text-sm">
                 <NavLink>Inicio</NavLink>
-                <NavLink>Habilidades</NavLink>
+                <NavLink>Sobre</NavLink>
                 <NavLink>Projetos</NavLink>
                 <NavLink>Contato</NavLink>
                 </ul>  
