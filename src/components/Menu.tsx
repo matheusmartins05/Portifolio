@@ -3,6 +3,7 @@ import Wrapper from "./Wrapper";
 import logoMenu from "/logoMenu.webp"
 import github from "/github.svg"
 import linkedin from "/linkedin.svg"
+import { Link } from "react-router-dom";
 
 export default function Menu(){
     return(
@@ -11,8 +12,8 @@ export default function Menu(){
 
                 <img className="w-10" src={logoMenu} alt="" />
                 <ul className="flex gap-2 text-[#E5ECF4] text-sm">
-                <NavLink>Inicio</NavLink>
-                <NavLink>Sobre</NavLink>
+                <NavLink><Link to={"/"}>Inicio</Link></NavLink>
+                <NavLink><Link to={"/sobremim"}>Sobre</Link></NavLink>
                 <NavLink>Projetos</NavLink>
                 <NavLink>Contato</NavLink>
                 </ul>  

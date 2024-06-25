@@ -1,5 +1,7 @@
+import { ReactNode } from "react"
+
 interface propsNavLink{
-    children: string
+    children: ReactNode
 }
 
 export default function NavLink({children} : propsNavLink){
