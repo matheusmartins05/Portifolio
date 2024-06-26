@@ -8,10 +8,10 @@ import { Link } from "react-router-dom";
 export default function Menu(){
     return(
         <Wrapper>
-        <header className="flex justify-around items-center bg-[#646e78a9] h-16">
+        <header className="flex justify-around items-center bg-background py-4">
 
                 <img className="w-10" src={logoMenu} alt="" />
-                <ul className="flex gap-2 text-[#E5ECF4] text-sm">
+                <ul className="flex gap-2 text-paraghaph text-sm">
                 <NavLink><Link to={"/"}>Inicio</Link></NavLink>
                 <NavLink><Link to={"/sobremim"}>Sobre</Link></NavLink>
                 <NavLink>Projetos</NavLink>
