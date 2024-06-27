@@ -7,6 +7,6 @@ interface propsWrapper{
 
 export default function Wrapper({children} : propsWrapper){
     return(
-        <div className="max-w-[100%]">{children}</div>
+        <div className="w-[80%] mx-auto">{children}</div>
     )
 }

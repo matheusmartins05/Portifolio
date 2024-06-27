@@ -5,23 +5,26 @@ import minhaFoto from "/foto.png";
 
 export default function Home() {
   return (
-    <Wrapper>
-      <main className="bg-background  h-screen">
+      <main className="bg-background h-[calc(100vh-4rem)]">
         <Blur></Blur>
-        <div className="relative bg-transparent h-[60%] grid grid-cols-4 grid-rows-4 justify-center items-center w-[80%] mx-auto font-poppins text-xl text-heading font-semibold ">
+        <div className="relative bg-transparent py-10 h-96 grid grid-cols-4 grid-rows-4 justify-center items-center w-[80%] max-w-[500px] mx-auto font-poppins text-xl md:text-4xl text-heading font-semibold ">
 
-          <p className="row-start-2 self-start">MATHEUS</p>
+          <p className="row-start-1 col-start-1 self-end justify-self-start ">MATHEUS</p>
+          <p className="row-start-2 col-start-1 self-start justify-self-start ">MARTINS</p>
           <figure className="col-start-2 col-end-4 row-start-2	row-end-3">
-            <img className=" h-56 w-40 my-5 mx-auto" src={minhaFoto} alt="" />
+            <img className=" h-72 mt-10 mx-auto" src={minhaFoto} alt="" />
           </figure>
-          <p className="row-start-3 col-start-4 self-start">MARTINS</p>
 
-          <p className="pt-20 text-center text-paraghaph text-sm font-light row-start-4 col-start-1 col-end-5">
+          <p className="row-start-3 col-start-4 self-end justify-self-start">DEVELOPER</p>
+          <p className="row-start-4 col-start-4 self-start">WEB</p>
+
+
+          <p className="pt-28 text-center text-paraghaph text-sm font-light row-start-4 col-start-1 col-end-5">
             Desenvolvedor front end, com boas habilidades em marketing.
           </p>
         </div>
 
-        <div className="flex justify-center mx-auto py-16  gap-4 text-heading font-poppins">
+        <div className="flex justify-center mx-auto py-10 gap-4 text-heading font-poppins">
           <Button style="p-2 text-sm rounded-full bg-primary">
             Conhecer melhor
           </Button>
@@ -30,6 +33,5 @@ export default function Home() {
           </Button>
         </div>
       </main>
-    </Wrapper>
   );
 }
