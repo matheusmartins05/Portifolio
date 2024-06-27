@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 export default function Menu() {
   return (
     <header className="bg-background">
-      <Wrapper>
+      <Wrapper width="w-[80%]">
         <div className="flex justify-around items-center bg-background py-4">
             <img className="w-10" src={logoMenu} alt="" />
             <ul className="flex gap-2 text-paraghaph text-sm md:text-lg md:gap-10">

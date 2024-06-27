@@ -1,7 +1,9 @@
-
-export default function Blur(){
+interface propsBlur{
+    blur: string
+}
+export default function Blur({blur} : propsBlur){
     return(
-        <div id="teste" className="bg-background w-[10%] relative top-[30%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+        <div id="teste" className={`${blur}`}>
         </div>
     )
 }

@@ -2,11 +2,12 @@ import { ReactNode } from "react"
 
 interface propsWrapper{
     children: ReactNode
+    width: string
 }
 
 
-export default function Wrapper({children} : propsWrapper){
+export default function Wrapper({children, width} : propsWrapper){
     return(
-        <div className="w-[80%] mx-auto">{children}</div>
+        <div className={`${width} mx-auto`}>{children}</div>
     )
 }
