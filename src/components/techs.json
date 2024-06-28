@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "nome": "Html5",
+    "imagem": "/html.svg"
+  },
+  {
+    "id": "2",
+    "nome": "Css3",
+    "imagem": "/css3.svg"
+  },
+  {
+    "id": "3",
+    "nome": "Javascript",
+    "imagem": "/javascript.svg"
+  },
+  {
+    "id": "4",
+    "nome": "React",
+    "imagem": "/react.svg"
+  },
+  {
+    "id": "5",
+    "nome": "Tailwindcss",
+    "imagem": "/tailwindcss.svg"
+  },
+  {
+    "id": "6",
+    "nome": "Typescript",
+    "imagem": "/typescript.svg"
+  },
+  {
+    "id": "7",
+    "nome": "Git",
+    "imagem": "/git.svg"
+  },
+  {
+    "id": "8",
+    "nome": "Bootstrap",
+    "imagem": "/bootstrap.svg"
+  },
+  {
+    "id": "9",
+    "nome": "Styled components",
+    "imagem": "/styledcomponents.svg"
+  },
+  {
+    "id": "10",
+    "nome": "Node js",
+    "imagem": "/nodedotjs.svg"
+  },
+  {
+    "id": "11",
+    "nome": "Npm",
+    "imagem": "/npm.svg"
+  },
+  {
+    "id": "12",
+    "nome": "Mysql",
+    "imagem": "/mysql.svg"
+  }
+]
