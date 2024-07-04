@@ -14,7 +14,8 @@ export default function Home() {
           <figure className=" sm:col-start-2 sm:col-end-4 sm:row-start-2 	sm:row-end-3 relative z-10">
             <img className="w-[100%] h-72 sm:mt-10 mx-auto" src={minhaFoto} alt="" />
           </figure>
-          <Blur blur="w-1 relative top-[150%] left-[50%] translate-x-[-50] translate-y-[-50]"></Blur>
+          <Blur blur="absolute top-[50%] left-[50%] translate-x-[-50] translate-y-[-50]"></Blur>
+          <Blur blur="hidden"></Blur>
           <p className="row-start-3 col-start-4 sm:self-end sm:justify-self-start pt-4">DEVELOPER</p>
           <p className="row-start-4 col-start-4 sm:self-start">WEB</p>
 
