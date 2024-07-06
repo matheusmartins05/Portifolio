@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Blur from "../components/Blur";
 import Button from "../components/Button";
 
@@ -27,10 +28,10 @@ export default function Home() {
 
         <div className="flex justify-center mx-auto pt-10 md:py-20 gap-10 text-heading font-poppins">
           <Button style="p-2 text-sm rounded-full bg-primary">
-            Conhecer melhor
+            <Link to={"/sobremim"}>Conhecer melhor</Link>
           </Button>
           <Button style="p-2 text-sm border rounded-full border-primary">
-            Ver projetos
+            <Link to={"/projetos"}>Ver projetos</Link>
           </Button>
         </div>
         <Blur blur="w-24 relative top-[0] left-[100%] translate-x-[-50] translate-y-[-50] invisible md:visible"></Blur>
