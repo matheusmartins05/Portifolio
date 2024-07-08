@@ -1,6 +1,6 @@
 import NavLink from "./NavLink";
 import Wrapper from "./Wrapper";
-import logoMenu from "/logoMenu.webp";
+import logoMenu from "/logoMenu.svg";
 import github from "/github.svg";
 import linkedin from "/linkedin.svg";
 import { Link } from "react-router-dom";
