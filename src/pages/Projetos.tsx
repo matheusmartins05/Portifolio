@@ -6,9 +6,8 @@ export default function Projetos() {
     <>
     <Wrapper width="w-[80%] ">
       <h3 className="text-3xl text-heading text-center mt-8">Projetos</h3>
-      <div className="flex gap-4 py-8">
+      <div className="flex justify-center flex-wrap gap-4 py-8">
 
-          <CardProjeto/>
           <CardProjeto/>
           <CardProjeto/>
           <CardProjeto/>
