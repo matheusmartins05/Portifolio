@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import Blur from "../components/Blur";
 import Button from "../components/Button";
-
 import minhaFoto from "/foto.png";
 
-export default function Home() {
+export default  function Home() {
+
+
   return (
       <main className="bg-background h-[calc(100vh-4rem)]">
         <Blur blur="sm:w-1 invisible sm:visible"></Blur>
