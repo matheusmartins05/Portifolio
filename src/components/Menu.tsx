@@ -53,8 +53,8 @@ export default function Menu() {
             </li>
           </ul>
           <div className="flex gap-2">
-            <img className="w-6" src={github} alt="" />
-            <img className="w-6" src={linkedin} alt="" />
+            <a href="https://github.com/matheusmartins05" target="_blank"><img className="w-6" src={github} alt="" /></a>
+            <a href="https://www.linkedin.com/in/matheus-santos-martins/" target="_blank"><img className="w-6" src={linkedin} alt="" /></a>
           </div>
         </div>
       </Wrapper>
