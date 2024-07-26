@@ -8,9 +8,12 @@ interface cardProjetosProps{
   descricao: string
   imagem: string
   link: string
+  techPrincipal: string
+  tech2: string,
+  tech3: string
 }
 
-export default function CardProjeto({nome, descricao, imagem, link} : cardProjetosProps) {
+export default function CardProjeto({nome, descricao, imagem, link,techPrincipal, tech2,tech3} : cardProjetosProps) {
 
   return (
     <div className="bg-[#121316] w-80 rounded-lg">
@@ -22,9 +25,9 @@ export default function CardProjeto({nome, descricao, imagem, link} : cardProjet
       <div className="flex flex-col w-[85%] mx-auto my-4">
         <div className="flex justify-between mt-2">
           <div className="flex gap-4">
-            <img className="w-4" src={typescript} alt="" />
-            <img className="w-4" src={react} alt="" />
-            <img className="w-4" src={tailwindcss} alt="" />
+            <img className="w-4" src={techPrincipal} alt="" />
+            <img className="w-4" src={tech2} alt="" />
+            <img className="w-4" src={tech3} alt="" />
           </div>
 
           <div>
