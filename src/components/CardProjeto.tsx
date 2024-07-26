@@ -1,6 +1,3 @@
-import typescript from "/typescript.svg";
-import react from "/react.svg";
-import tailwindcss from "/tailwindcss.svg";
 import { Eye } from "@phosphor-icons/react";
 
 interface cardProjetosProps{
